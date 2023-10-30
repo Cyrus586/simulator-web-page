@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>CircuitGPT AI Forum page</title>
+</head>
+
+<body class="bg-[#191c24]">
+
+    <div class="bg-transparent w-[800px] h-[500px] m-auto">
+        <div class="mt-[8rem] border-b border-gray-400">
+            <div class="flex mb-5">
+                <a href="landing.html"><img src="/image/GPTlogowhite.svg" class="w-[250px]"></a>
+            </div>
+            <div class="mt-5">
+                <h2 class="text-[35px] text-white">Get Ahead of the Curve:</h2>
+            </div>
+
+            <div class="my-[30px] flex items-center justify-between flex-col">
+                <h1 class="text-[14px] text-gray-400 mb-3 font-semibold">SECURE A SPOT ON OUR EXCLUSIVE WAITLIST!</h1>
+                <div class="flex flex-wrap items-center justify-center">
+
+                    <div class="text-center text-white mt-2">
+                        <p class="text-[4rem] leading-[1] my-[1rem] mx-[2rem] font-bold" id="days">0</p>
+                        <span class="text-[1rem]">Days</span>
+                    </div>
+                    <div class="text-center text-white mt-2">
+                        <p class="text-[4rem] leading-[1] my-[1rem] mx-[2rem] font-bold" id="hours">0</p>
+                        <span class="text-[1rem]">hours</span>
+                    </div>
+                    <div class="text-center text-white mt-2">
+                        <p class="text-[4rem] leading-[1] my-[1rem] mx-[2rem] font-bold" id="mins">0</p>
+                        <span class="text-[1rem]">mins</span>
+                    </div>
+                    <div class="text-center text-white mt-2">
+                        <p class="text-[4rem] leading-[1] my-[1rem] mx-[2rem] font-bold" id="seconds">0</p>
+                        <span class="text-[1rem]">seconds</span>
+                    </div>
+                </div>
+                <h1 class="text-[14px] text-gray-400 mt-5 font-semibold">TO LAUNCH</h1>
+            </div>
+            <div class="mt-11 block mb-2">
+                <p class="text-white font-semibold"><span class="text-gray-400">+</span> EARLY ACCESS</p>
+                <p class="text-white font-semibold"><span class="text-gray-400">+</span> EXCLUSIVE UPDATES</p>
+                <p class="text-white font-semibold"><span class="text-gray-400">+</span> SPECIAL FEATURES AND OFFERS,
+                    JUST FOR YOU</p>
+            </div>
+        </div>
+
+        <div class="mt-[2rem] mb-[2rem]">
+            <div class="mt-5">
+                <h2 class="text-[35px] text-white">Be The First To Know;</h2>
+            </div>
+
+            <div class="my-[30px] flex items-center justify-between flex-col mb-[3rem]">
+                <div class="flex flex-col items-center justify-center mb-[2rem]">
+                    <form action="" class="flex flex-col items-center justify-center">
+                        <input type="text" placeholder="YOUR NAME" required="required"
+                            class="p-3 rounded outline-none m-3 border border-gray-400 bg-transparent text-white">
+                        <input type="number" placeholder="WHATSAPP NUMBER" required="required"
+                            class="p-3 rounded outline-none m-3 text-white border border-gray-400 bg-transparent">
+                        <input type="email" placeholder="EMAIL Adress" required="required"
+                            class="p-3 rounded outline-none m-3 text-white border border-gray-400 bg-transparent">
+
+                        <button type="submit"
+                            class="bg-[#191919] p-3 border border-gray-500 rounded shadow-5xl hover:opacity-70 text-white">Add
+                            Me to the List <i class="bx bx-check"></i></button>
+                    </form>
+                </div>
+
+                
+            </div>
+            <section id="newsletter" class="my-[20px] mx-[0px] bg-transparent flex items-center p-[30px] justify-between">
+                <p><span class="font-semibold text-gray-400 hover:text-red-500 transition-all"><a href="landing.html">Home</a></span></p>
+                <p><span class="font-semibold text-gray-400 hover:text-red-500 transition-all"><a href="https://3d.mulmet.org/about">About Us</a></span></p>
+                <p><span class="font-semibold text-gray-400 hover:text-red-500 transition-all"><a href="https://mulmet.org/shop">Shop</a></span></p>
+            </section>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const daysEl = document.getElementById( 'days' );
+        const hoursEl = document.getElementById( 'hours' );
+        const minsEl = document.getElementById( 'mins' );
+        const secondsEl = document.getElementById( 'seconds' );
+
+
+        const newYears = "6 Nov 2023";
+
+        function countdown() {
+            const newYearsDate = new Date( newYears );
+            const currentDate = new Date();
+
+            const totalSeconds = ( newYearsDate - currentDate ) / 1000;
+
+            const days = Math.floor( totalSeconds / 3600 / 24 );
+
+            const hours = Math.floor( totalSeconds / 3600 ) % 24;
+            const mins = Math.floor( totalSeconds / 60 ) % 60;
+
+            const seconds = Math.floor( totalSeconds ) % 60;
+
+            daysEl.innerHTML = days;
+            hoursEl.innerHTML = formatTime( hours );
+            minsEl.innerHTML = formatTime( mins );
+            secondsEl.innerHTML = formatTime( seconds );
+
+        }
+
+        function formatTime( time ) {
+            return time < 10 ? ( `0${ time }` ) : time;
+        }
+
+        // initial call
+        countdown();
+
+        setInterval( countdown, 1000 );
+
+
+    </script>
+</body>
+
+</html>

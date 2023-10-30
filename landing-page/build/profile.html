@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Your Profile - CircuitGPT AI</title>
+</head>
+<body class="bg-[#191c24]">
+
+
+    <nav class="flex justify-between py-[10px] px-[20px] sticky top-0 left-0 z-50 bg-[#191c24] text-white shadow-5xl">
+        <div class="flex">
+            <a href="/build/landing.html">
+                <span>
+                    <img src="../image/GPTlogowhite.svg" class="w-[150px] logo">
+                </span>
+            </a>
+        </div>
+        <ul id="nav-menu" class="flex justify-between py-3 nav-menu">
+            <li class="relative px-20px">
+                <div class="dropdown-link">
+                    <i class="bx bx-x" id="close-menu"></i>
+                </div>
+            </li>
+            <li class="relative px-20px">
+                <div class="dropdown-link">
+                    <a href="#" class="hover:text-red-600 transition-all">Docs</a>
+                </div>
+            </li>
+            <li class="relative px-20px">
+                <div class="dropdown-link">
+                    <a href="#" class="hover:text-red-600 transition-all">Community
+                        <i class="bx bx-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="hover:text-red-600 transition-all">Forum</a>
+                        <a href="#" class="hover:text-red-600 transition-all">Discord</a>
+                        <a href="project.html" class="hover:text-red-600 transition-all">Projects</a>
+                    </div>
+                </div>
+            </li>
+            <li class="relative px-20px">
+                <div class="dropdown-link">
+                    <a href="#" class="hover:text-red-600 transition-all">Pricing</a>
+                </div>
+            </li>
+            <li class="relative px-20px">
+                <div class="dropdown-link">
+                    <a href="#" class="hover:text-red-600 transition-all">Company
+                        <i class="bx bx-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="https://3d.mulmet.org/about" class="hover:text-red-600 transition-all">About Us</a>
+                        <a href="https://3d.mulmet.org" class="hover:text-red-600 transition-all">3D Printing</a>
+                        <a href="https://mulmet.org/shop" class="hover:text-red-600 transition-all">Ecommerce</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="login-position p-0 flex items-center justify-between">
+            <p class=" cursor-pointer py-0 px-4 hover:text-red-600 transition-all flex items-center justify-between"><span class="px-2">Search</span>
+                 <i class="bx bx-search-alt-2"></i>
+            </p>
+            <p class=" p-2 hover:text-red-600 transition-all border-[1px] border-white flex items-center justify-between">
+                <a href="index.html"><span>Logout</span>
+                    <i class="bx bx-log-out"></i>
+                </a>
+            </p>
+
+            <p>
+                <i class="bx bx-menu" id="ham-menu"></i>
+            </p>
+        </div>
+        
+    </nav>
+
+    <section>
+        <div class="mt-[2%] ml-[5%] h-full w-[300px] bg-transparent shadow-5xl ">
+            <ul class="h-full py-[10px] px-5 overflow-hidden text-white">
+                <li>
+                    <div class="items-center justify-center flex mb-[20px]">
+                        <img src="../image/testimonial1.png" class="w-[200px] h-[200px] rounded-full">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="items-start flex justify-start flex-col">
+                        <h1 class="text-[30px] capitalize font-semibold">Chris Martin</h1>
+                        <p class="text-[20px]">Martin</p>
+
+                        <div class="flex items-center justify-between mb-5 mt-3">
+                            <a href="#" class="text-[13px] text-gray-400 mr-3 hover:text-white transition-all">6 Projects</a>
+                            <a href="#" class="text-[13px] text-gray-400 mr-3 hover:text-white transition-all">2 Components</a>
+                            <a href="#" class="text-[13px] text-gray-400 mr-3 hover:text-white transition-all">8 Shcamatics</a>
+                        </div>
+
+                        <div class="flex items-center justify-between mb-5 mt-3">
+                            <a href="#" class="border border-gray-500 p-1 inline-block text-gray-400 mr-3 hover:text-white transition-all">Update Profile</a>
+                            <a href="#" class="border border-gray-500 p-1 text-gray-400 mr-3 hover:text-white transition-all">Create Project</a>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+    
+        </div>
+        <div class=" w-[950px] h-[58.5vh] mt-[-31.7%] ml-[28%]">
+            <div class="flex items-center justify-between shadow-5xl py-3 px-2 bg-[#191c24] text-white">
+                <div class="flex justify-between items-center uppercase">
+                    <a href="#" class="px-3 active text-gray-500 hover:text-white transition-all">Overview</a>
+                    <a href="#" class="px-3 text-gray-500 hover:text-white transition-all">Starred</a>
+                </div>
+                <div>
+                    <input type="search" placeholder="Search By Name..." class="bg-[#263238] py-1 px-3 outline-none focus:border-white rounded-sm">
+                </div>
+            </div>
+
+
+
+            <div class="my-5 text-white">
+                <h1 class="text-[20px] font-semibold">Latest Projects</h1>
+            </div>
+
+            <div class="bg-transparent flex text-center flex-row justify-between flex-wrap icons mb-5 mt-5 ">
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class=" w-[1250px] h-[58.5vh] ml-[5%] mt-[15%] mb-[10%]">
+
+            <div class="my-5 text-white">
+                <h1 class="text-[20px] font-semibold">Starred Projects</h1>
+            </div>
+
+            <div class="bg-transparent flex text-center flex-row justify-between flex-wrap icons mb-5 mt-5 ">
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+                <div
+                    class="flex-1 max-w-[300px] h-full  text-black py-6 px-4 border border-gray-600  rounded text-center transition-all shadow-3xl">
+                    <div class="flex items-center justify-center mb-[5px]">
+                        <img src="../image/PngItem_1824587.png" class="w-full h-full ">
+
+                    </div>
+                    <div class="text-[14px] items-start text-start">
+                        <h1 class="text-[20px] text-white font-semibold"><a href="#">ESP32 Robot Controller</a></h1>
+
+                        <p class="text-gray-500 leading-5">
+                            Control board for autonomous or radio-controlled robots based on ESP32. It has inputs for
+                            distance sensors, encoders, or a Flysky RC controller receiver. I2C display to visualize and
+                            select configuration modes.
+                        </p>
+                    </div>
+                    <div class="mt-3 flex items-start justify-start">
+                        <img src="/image/testimonial1.png"
+                            class="rounded-full w-[30px] h-[30px] mr-[5px]">
+                        <p class="text-white mt-[3px]"><a href="#">Martin</a></p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+<section id="newsletter" class="my-[20px] mx-[0px] bg-[#263238] flex items-center p-[30px] justify-between">
+    <p><span class="font-semibold text-gray-400">SignUp</span> to our Newsletter to get Updated</p>
+    <form action="" id="form">
+        <input type="email" placeholder="Your Email" required="required"
+            class="py-[8px] px-[15px] outline-none border-gray-400  border text-gray-400 search">
+        <button type="submit"
+            class="py-[10px] px-[15px] text-white border-0 outline-none cursor-pointer bg-[#191919] ml-[-10px]  transition-all hover:bg-[#ccc]   ">SignUp</button>
+    </form>
+</section>
+
+
+<footer class="section-p1 max-w-screen-xl mx-auto">
+    <div class="col">
+        <img src="../image/GPTlogowhite.svg" class="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> KIWATULE, KAMPALA.
+            UGANDA, P.O. BOX 115872</p>
+        <p><strong>Email: </strong> mulmetco@gmail.com</p>
+        <p><strong>Phone: </strong>  (+256) 777 965265</p>
+        <p><strong>Hours: </strong> Monday to Friday: 7am – 7pm
+            Weekend: 10am – 5pm</p>
+        
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-youtube"></i>
+                <i class="bx bxl-pinterest"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4> <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privary Policy</a>
+        <a href="">Terms & Conditions</a> <a href="">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4> <a href="#">Sign In</a>
+        <a href="#">View Orders</a> <a href="#">My Wishlist</a>
+        <a href="">Track My Order</a> <a href="">Help</a>
+    </div>
+    <div class="col install">
+        <h4>Secured Payment Gateways</h4>
+        <p class="font-semibold">Mobile Money </p>
+        <p class="font-semibold">Airtel & MTN</p>
+        
+        <img src="/image/pay.png" alt="" />
+    </div>
+    <div class="copyright">
+        <p>&copy; 2021, <a href="landing.html">CircuitGPT website</a></p>
+    </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
