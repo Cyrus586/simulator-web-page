@@ -2414,7 +2414,7 @@ footer .copyright {
 
   .header {
     width: 100%;
-    height: 100%;
+    height: 100vh;
   }
 
   .animated-text {
@@ -2505,6 +2505,7 @@ footer .copyright {
   }
   .header{
     height: 100vh;
+    width: 100%;
   }
 
   .section-video .div-class {
@@ -2564,6 +2565,9 @@ footer .copyright {
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
+  }
+  #newsletter{
+    width: 100%;
   }
   #newsletter form input{
     width: 200px;
@@ -2642,6 +2646,7 @@ footer .copyright {
   }
   .header{
     height: 100vh;
+    width: 100%;
   }
 
   .section-video .div-class {
@@ -2701,6 +2706,9 @@ footer .copyright {
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
+  }
+  #newsletter{
+    width: 100%;
   }
   #newsletter form input{
     width: 200px;
@@ -2751,6 +2759,7 @@ footer .copyright {
   .newsletter {
     padding: 10px;
     margin: 10px 70px;
+    width: 100%;
   }
 
   form {
@@ -2776,6 +2785,7 @@ footer .copyright {
   }
   .header{
     height: 100vh;
+    width: 100%;
   }
 
   .section-video .div-class {
@@ -2835,6 +2845,9 @@ footer .copyright {
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
+  }
+  #newsletter{
+    width: 100%;
   }
   #newsletter form input{
     width: 200px;
@@ -2910,6 +2923,7 @@ footer .copyright {
   }
   .header{
     height: 100vh;
+    width: 100%;
   }
 
   .section-video .div-class {
@@ -3023,6 +3037,7 @@ footer .copyright {
   .newsletter {
     padding: 10px;
     margin: 10px 70px;
+    width: 100%;
   }
 
   form {
@@ -3268,345 +3283,6 @@ footer .copyright {
   }
 
 }
-@media (max-width: 425px) {
-  .timer-body {
-    width: 380px;
-    height: 100%;
-    margin: 20px;
-  }
-  nav.scroll-sticky{
-    display: none;
-  }
-
-  body {
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-  }
-
-  .timer-body-2 {
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .timer-logo {
-    width: 200px;
-    margin-top: -10px;
-  }
-
-  .timer-heading {
-    font-size: 30px;
-  }
-
-  .timer-content {
-    margin: 30px;
-  }
-
-  .timer-number p {
-    font-size: 1.5rem;
-    margin: 10px 20px;
-  }
-
-  .timer-number span {
-    font-size: 0.750rem;
-  }
-
-  .timer-info p {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .newsletter {
-    padding: 10px;
-    margin: 10px 40px;
-  }
-
-  form {
-    width: 300px;
-  }
-
-  form input {
-    width: 100%;
-    padding: 10px 15px;
-    font-size: 13px;
-  }
-
-  form button {
-    padding: 10px 15px;
-    font-size: 13px;
-  }
-  
-  .section-video {
-    display: grid;
-    width: 350px;
-    grid-template-columns: 1fr 1fr;
-
-  }
-
-  .section-video .div-class {
-    max-width: 150px;
-    margin-bottom: -40px;
-    width: 150px;
-  }
-
-  video {
-    display: none;
-  }
-
-  .chat-content {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .Animated-section {
-    width: 450px;
-  }
-
-  .box {
-    position: relative;
-    width: 380px;
-    height: 400px;
-    background: #191c24;
-    color: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    overflow: hidden;
-    transition: all 0.4s ease;
-    border-radius: 12px;
-    margin-bottom: 20px;
-  }
-
-  .box::after {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 380px;
-    height: 400px;
-    background: linear-gradient(0deg, transparent, transparent, #fff, #fff, #fff);
-    z-index: 1;
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-  }
-
-  .box::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 380px;
-    height: 400px;
-    background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
-    z-index: 1;
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-    animation-delay: -3s;
-  }
-  #newsletter{
-    padding: 5px 10px;
-    width: 450px;
-    font-size: 12px;
-  }
-  #newsletter form input{
-    width: 150px;
-    margin-left: 50px;
-  }
-  #newsletter form button{
-    padding: 10px;
-  }
-
-  .chat-icon {
-    width: 35px;
-    height: 35px;
-    inset: 4px;
-    line-height: 20px;
-    background: #191c24;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    font-size: 20px;
-    z-index: 1;
-    border-radius: 50%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -40px;
-    margin-right: 15px;
-    margin-top: -5px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .chat-heading i,
-  .chat-heading-2 i {
-    background: #263238;
-    width: 34px;
-    height: 34px;
-    line-height: 36px;
-    border-radius: 50%;
-    z-index: 2;
-  }
-  
-  .chat-icon::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 35px;
-    height: 35px;
-    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
-    z-index: 1;
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-  }
-  
-  .chat-icon::after {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 35px;
-    height: 35px;
-    background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
-    z-index: 1;
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-    animation-delay: -3s;
-  }
-  
-.schematic-icon {
-  width: 35px;
-  height: 35px;
-  inset: 4px;
-  line-height: 20px;
-  background: #191c24;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  font-size: 20px;
-  z-index: 1;
-  border-radius: 50%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: -25px;
-  margin-right: -35px;
-  overflow: hidden;
-  position: relative;
-}
-
-.schematic-icon i {
-  background: #263238;
-  width: 34px;
-  height: 34px;
-  line-height: 36px;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.schematic-icon::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 35px;
-  height: 35px;
-  background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
-  z-index: 1;
-  transform-origin: bottom right;
-  animation: animate 6s linear infinite;
-}
-
-.schematic-icon::after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 35px;
-  height: 35px;
-  background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
-  z-index: 1;
-  transform-origin: bottom right;
-  animation: animate 6s linear infinite;
-  animation-delay: -3s;
-}
-
-
-}
-
-@media (max-width: 320px) {
-  .timer-body {
-    width: 280px;
-    height: 100%;
-    margin: 20px;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .timer-body-2 {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .timer-logo {
-    width: 150px;
-    margin-top: -10px;
-  }
-
-  .timer-heading {
-    font-size: 20px;
-  }
-
-  .timer-content {
-    margin: 10px;
-  }
-
-  .timer-content-header {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  .timer-number p {
-    font-size: 1rem;
-    margin: 10px 20px;
-    font-weight: 400;
-  }
-
-  .timer-number span {
-    font-size: 0.550rem;
-    font-weight: 400;
-  }
-
-  .timer-info p {
-    font-size: 12px;
-    font-weight: 500;
-  }
-
-  .newsletter {
-    padding: 10px;
-    margin: 5px 10px;
-  }
-
-  .newsletter p {
-    font-size: 14px;
-  }
-
-  form {
-    width: 200px;
-  }
-
-  form input {
-    width: 100%;
-    padding: 5px 10px;
-    font-size: 13px;
-  }
-
-  form button {
-    padding: 5px 10px;
-    font-size: 13px;
-  }
-
-}
-
 
 
 
@@ -4133,6 +3809,151 @@ footer .copyright {
   }
   #newsletter form button{
     padding: 9px;
+  }
+
+}
+@media (max-width: 606px) {
+
+  .timer-body {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .timer-body-2 {
+    width: 710px;
+    margin-top: 20px;
+  }
+
+  .timer-logo {
+    width: 200px;
+    margin-top: -10px;
+  }
+
+  .timer-heading {
+    font-size: 30px;
+  }
+
+  .timer-content {
+    margin: 30px;
+  }
+
+  .timer-number p {
+    font-size: 2.5rem;
+  }
+
+  .timer-number span {
+    font-size: 0.957rem;
+  }
+
+  .newsletter {
+    padding: 10px;
+    margin: 10px 70px;
+    width: 100%;
+  }
+
+  form {
+    width: 300px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  form button {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  .section-video {
+    display: grid;
+    width: 620px;
+    grid-template-columns: 2fr 2fr;
+
+  }
+
+  .section-video .div-class {
+    max-width: 200px;
+    margin-bottom: -40px;
+    width: 200px;
+  }
+  nav.scroll-sticky{
+    display: none;
+  }
+  .login-position p{
+    margin-top: -15px;
+  }
+  .heading-h4{
+    font-size: 20px;
+  }
+
+  video {
+    display: none;
+  }
+
+  .chat-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Animated-section {
+    width: 650px;
+  }
+
+  .box {
+    position: relative;
+    width: 480px;
+    height: 300px;
+    background: #191c24;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .box::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 480px;
+    height: 300px;
+    background: linear-gradient(0deg, transparent, transparent, #fff, #fff, #fff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+  }
+
+  .box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 480px;
+    height: 300px;
+    background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+  }
+  #newsletter form input{
+    width: 200px;
+  }
+  #newsletter form button{
+    padding: 9px;
+  }
+  .header{
+    width: 100%;
+    height: 100vh;
   }
 
 }
@@ -5216,100 +5037,6 @@ footer .copyright {
   }
 
 }
-@media (max-width: 450px) {
-  nav {
-    width: 100%;
-    height: 13vh;
-    padding: 10px 15px;
-    background: #191c24;
-    color: #fff;
-    top: 0;
-    left: 0;
-    position: sticky;
-    z-index: 10;
-  }
-
-  .nav-menu.active {
-    left: 250px;
-  }
-
-  .login-position p span {
-    display: none;
-  }
-
-  .nav-menu li {
-    font-size: 16px;
-  }
-
-  .btn-cate {
-    margin-left: 420px;
-    display: none;
-  }
-
-  .login-position {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    justify-content: space-between;
-    margin-top: -35px;
-    padding: 20px 3px;
-  }
-
-  .login-position p {
-    margin-top: 20px;
-    border: 0;
-    padding: 10px 16px;
-  }
-
-  .header {
-    width: 100%;
-    height: 100vh;
-  }
-
-  .hero-sec {
-    margin-top: -20px;
-  }
-
-  .animated-text {
-    font-size: 14px;
-  }
-
-  .benefit {
-    display: block;
-  }
-
-  .icons {
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-  }
-
-  .img-benfit {
-    width: 490px;
-    border-radius: 6px;
-  }
-
-  #newsletter #form {
-    width: 100%;
-  }
-
-  #newsletter {
-    padding: 40px 10px;
-  }
-
-  #newsletter .copyright {
-    text-align: start;
-  }
-
-  .search {
-    width: 200px;
-    margin-left: 30px;
-  }
-
-  .image {
-    display: none;
-  }
-}
-
 @media (max-width: 477px) {
   nav {
     width: 100%;
@@ -5489,6 +5216,7 @@ footer .copyright {
 
   #newsletter {
     padding: 40px 20px;
+    width: 100%;
   }
 
   #newsletter .copyright {
@@ -5505,7 +5233,364 @@ footer .copyright {
   }
 }
 
+@media (max-width: 450px) {
+  nav {
+    width: 100%;
+    height: 13vh;
+    padding: 10px 15px;
+    background: #191c24;
+    color: #fff;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 10;
+  }
+
+  .nav-menu.active {
+    left: 250px;
+  }
+
+  .login-position p span {
+    display: none;
+  }
+
+  .nav-menu li {
+    font-size: 16px;
+  }
+
+  .btn-cate {
+    margin-left: 420px;
+    display: none;
+  }
+
+  .login-position {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-top: -35px;
+    padding: 20px 3px;
+  }
+
+  .login-position p {
+    margin-top: 20px;
+    border: 0;
+    padding: 10px 16px;
+  }
+
+  .header {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .hero-sec {
+    margin-top: -20px;
+  }
+
+  .animated-text {
+    font-size: 14px;
+  }
+
+  .benefit {
+    display: block;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .img-benfit {
+    width: 490px;
+    border-radius: 6px;
+  }
+
+  #newsletter #form {
+    width: 100%;
+  }
+
+  #newsletter {
+    padding: 40px 10px;
+    width: 100%;
+  }
+
+  #newsletter .copyright {
+    text-align: start;
+  }
+
+  .search {
+    width: 200px;
+    margin-left: 30px;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+
 @media (max-width: 425px){
+  .timer-body {
+    width: 380px;
+    height: 100%;
+    margin: 20px;
+  }
+  nav.scroll-sticky{
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .timer-body-2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .timer-logo {
+    width: 200px;
+    margin-top: -10px;
+  }
+
+  .timer-heading {
+    font-size: 30px;
+  }
+
+  .timer-content {
+    margin: 30px;
+  }
+
+  .timer-number p {
+    font-size: 1.5rem;
+    margin: 10px 20px;
+  }
+
+  .timer-number span {
+    font-size: 0.750rem;
+  }
+
+  .timer-info p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .newsletter {
+    padding: 10px;
+    margin: 10px 40px;
+  }
+
+  form {
+    width: 300px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  form button {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  
+  .section-video {
+    display: grid;
+    width: 350px;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .section-video .div-class {
+    max-width: 150px;
+    margin-bottom: -40px;
+    width: 150px;
+  }
+
+  video {
+    display: none;
+  }
+
+  .chat-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Animated-section {
+    width: 450px;
+  }
+
+  .box {
+    position: relative;
+    width: 380px;
+    height: 400px;
+    background: #191c24;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .box::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 400px;
+    background: linear-gradient(0deg, transparent, transparent, #fff, #fff, #fff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+  }
+
+  .box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 400px;
+    background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+  }
+  #newsletter{
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 12px;
+  }
+  #newsletter form input{
+    width: 150px;
+  }
+  #newsletter form button{
+    padding: 10px;
+  }
+
+  .chat-icon {
+    width: 35px;
+    height: 35px;
+    inset: 4px;
+    line-height: 20px;
+    background: #191c24;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    z-index: 1;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -40px;
+    margin-right: 15px;
+    margin-top: -5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .chat-heading i,
+  .chat-heading-2 i {
+    background: #263238;
+    width: 34px;
+    height: 34px;
+    line-height: 36px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .chat-icon::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+  }
+  
+  .chat-icon::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+  }
+  .header{
+    width: 100%;
+    height: 100vh;
+  }
+.schematic-icon {
+  width: 35px;
+  height: 35px;
+  inset: 4px;
+  line-height: 20px;
+  background: #191c24;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  z-index: 1;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -25px;
+  margin-right: -35px;
+  overflow: hidden;
+  position: relative;
+}
+
+.schematic-icon i {
+  background: #263238;
+  width: 34px;
+  height: 34px;
+  line-height: 36px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.schematic-icon::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+  z-index: 1;
+  transform-origin: bottom right;
+  animation: animate 6s linear infinite;
+}
+
+.schematic-icon::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(0deg, transparent, transparent, #fd4646, #fd4646, #fd4646);
+  z-index: 1;
+  transform-origin: bottom right;
+  animation: animate 6s linear infinite;
+  animation-delay: -3s;
+}
+
   body{
     overflow-x: hidden;
   }
@@ -5637,8 +5722,8 @@ footer .copyright {
 
 
   .header {
-    width: 450px;
-    height: 60vh;
+    width: 100%;
+    height: 100vh;
   }
 
   .animated-text {
@@ -5678,6 +5763,9 @@ footer .copyright {
     display: none;
   }
 }
+
+
+
 
 @media (max-width: 377px) {
   nav {
@@ -5954,7 +6042,7 @@ footer .copyright {
   }
 
   .nav-menu.active {
-    left: 200px;
+    left: 300px;
   }
 
   .login-position p span {
@@ -6087,30 +6175,19 @@ footer .copyright {
   .login-position {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     justify-content: space-between;
     margin-top: -35px;
-    margin-left: -200px;
     padding: 20px 3px;
-  }
-  .logo{
-    width: 100px;
   }
 
   .login-position p {
     border: 0;
-    padding: 5px 0px;
-    margin-top: -10px;
-  }
-  .login-position p span{
-    padding: 0px;
-  }
-  .login-position p i{
-    margin-left: -100px;
+    padding: 10px 16px;
   }
 
   .header {
-    width: 100%;
+    width: 600px;
     height: 100vh;
   }
 
@@ -6164,14 +6241,85 @@ footer .copyright {
     margin-bottom: 10px;
   }
   #newsletter form input{
-    width: 80%;
-    margin-left: 0px;
-  }
-  #newsletter form button{
-    padding: 10px;
+    width: 50%;
   }
 }
 
+@media (max-width: 320px) {
+  .timer-body {
+    width: 280px;
+    height: 100%;
+    margin: 20px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .timer-body-2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .timer-logo {
+    width: 150px;
+    margin-top: -10px;
+  }
+
+  .timer-heading {
+    font-size: 20px;
+  }
+
+  .timer-content {
+    margin: 10px;
+  }
+
+  .timer-content-header {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .timer-number p {
+    font-size: 1rem;
+    margin: 10px 20px;
+    font-weight: 400;
+  }
+
+  .timer-number span {
+    font-size: 0.550rem;
+    font-weight: 400;
+  }
+
+  .timer-info p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .newsletter {
+    padding: 10px;
+    margin: 5px 10px;
+  }
+
+  .newsletter p {
+    font-size: 14px;
+  }
+
+  form {
+    width: 200px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  form button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+}
 
 @media (max-width: 320px) {
   nav {
