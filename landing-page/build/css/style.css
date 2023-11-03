@@ -1784,7 +1784,7 @@ body::-webkit-scrollbar {
 }
 
 .animated-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   white-space: nowrap;
   color: #fff;
   overflow: hidden;
