@@ -44,7 +44,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -64,6 +64,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  overflow-x: hidden;
 }
 
 /*
@@ -87,7 +88,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -2369,6 +2370,276 @@ footer .copyright
 
   .image{
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .timer-body{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .timer-body-2{
+    width: 710px;
+    margin-top: 20px;
+  }
+
+  .timer-logo{
+    width: 200px;
+    margin-top: -10px;
+  }
+
+  .timer-heading{
+    font-size: 30px;
+  }
+
+  .timer-content{
+    margin: 30px;
+  }
+
+  .timer-number p{
+    font-size: 2.5rem;
+  }
+
+  .timer-number span{
+    font-size: 0.957rem;
+  }
+
+  .newsletter{
+    padding: 10px;
+    margin: 10px 70px;
+  }
+
+  form{
+    width: 300px;
+  }
+
+  form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  form button{
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+  .timer-body{
+    width: 380px;
+    height: 100%;
+    margin: 20px;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .timer-body-2{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .timer-logo{
+    width: 200px;
+    margin-top: -10px;
+  }
+
+  .timer-heading{
+    font-size: 30px;
+  }
+
+  .timer-content{
+    margin: 30px;
+  }
+
+  .timer-number p{
+    font-size: 1.5rem;
+    margin: 10px 20px;
+  }
+
+  .timer-number span{
+    font-size: 0.750rem;
+  }
+
+  .timer-info p{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .newsletter{
+    padding: 10px;
+    margin: 10px 40px;
+  }
+
+  form{
+    width: 300px;
+  }
+
+  form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  form button{
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .timer-body{
+    width: 340px;
+    height: 100%;
+    margin: 20px;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .timer-body-2{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .timer-logo{
+    width: 150px;
+    margin-top: -10px;
+  }
+
+  .timer-heading{
+    font-size: 25px;
+  }
+
+  .timer-content{
+    margin: 30px;
+  }
+
+  .timer-content-header{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .timer-number p{
+    font-size: 1.5rem;
+    margin: 10px 20px;
+  }
+
+  .timer-number span{
+    font-size: 0.750rem;
+  }
+
+  .timer-info p{
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .newsletter{
+    padding: 10px;
+    margin: 10px 40px;
+  }
+
+  .newsletter p{
+    font-size: 14px;
+  }
+
+  form{
+    width: 250px;
+  }
+
+  form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  form button{
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .timer-body{
+    width: 280px;
+    height: 100%;
+    margin: 20px;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .timer-body-2{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .timer-logo{
+    width: 150px;
+    margin-top: -10px;
+  }
+
+  .timer-heading{
+    font-size: 20px;
+  }
+
+  .timer-content{
+    margin: 10px;
+  }
+
+  .timer-content-header{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .timer-number p{
+    font-size: 1rem;
+    margin: 10px 20px;
+    font-weight: 400;
+  }
+
+  .timer-number span{
+    font-size: 0.550rem;
+    font-weight: 400;
+  }
+
+  .timer-info p{
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .newsletter{
+    padding: 10px;
+    margin: 5px 10px;
+  }
+
+  .newsletter p{
+    font-size: 14px;
+  }
+
+  form{
+    width: 200px;
+  }
+
+  form input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  form button{
+    padding: 5px 10px;
+    font-size: 13px;
   }
 }
 
