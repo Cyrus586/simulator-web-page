@@ -1721,7 +1721,7 @@ body::-webkit-scrollbar {
   color: #ffc600;
 }
 .header {
-  background-image: url(/image/pexels-cottonbro-studio-6153354.jpg);
+  background-image: url(../image/pexels-cottonbro-studio-6153354.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -3700,7 +3700,7 @@ footer .copyright {
   }
 }
 
-@media(max-width: 717px) {
+@media screen and (max-width: 717px) {
   nav {
     width: 100%;
     height: 6vh;
@@ -3874,7 +3874,7 @@ footer .copyright {
     display: none;
   }
 }
-@media (max-width: 681px) {
+@media screen and (max-width: 681px) {
 
   .timer-body {
     width: 100%;
@@ -4020,7 +4020,7 @@ footer .copyright {
   }
 
 }
-@media (max-width: 606px) {
+@media screen and (max-width: 606px) {
 
   .timer-body {
     width: 100%;
@@ -4171,7 +4171,7 @@ footer .copyright {
   }
 
 }
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
 
   .timer-body {
     width: 100%;
@@ -4330,7 +4330,7 @@ footer .copyright {
 
 }
 
-@media (max-width: 577px) {
+@media screen and (max-width: 577px) {
   nav.scroll-sticky {
     background: #263238;
     color: #fff;
@@ -4551,7 +4551,7 @@ footer .copyright {
   }
 }
 
-@media (max-width: 537px) {
+@media screen and (max-width: 537px) {
   nav {
     width: 100%;
     height: 13vh;
@@ -4688,7 +4688,7 @@ footer .copyright {
   }
 }
 
-@media (max-width: 535px) {
+@media screen and (max-width: 535px) {
   nav {
     width: 100%;
     height: 13vh;
@@ -4819,7 +4819,7 @@ footer .copyright {
     display: none;
   }
 }
-@media (max-width: 521px) {
+@media screen and (max-width: 521px) {
 
   .timer-body {
     width: 100%;
@@ -4983,7 +4983,7 @@ footer .copyright {
   }
 
 }
-@media (max-width: 518px) {
+@media (max-width: 518px) and (max-width: 480px) {
 
   .timer-body {
     width: 100%;
@@ -5148,7 +5148,7 @@ footer .copyright {
   }
 
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
   .timer-body {
     width: 100%;
@@ -5298,6 +5298,31 @@ footer .copyright {
   }
 
 }
+
+@media screen and (max-width: 480px) {
+  .timer-body{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .timer-body-2 {
+    width: 610px;
+    margin-top: 20px;
+    border-bottom: 0;
+  }
+
+  .body-form{
+    width: 410px;
+  }
+  .newsletter{
+    margin: 0;
+  }
+}
+
+
 @media (max-width: 477px) {
   nav {
     width: 100%;
